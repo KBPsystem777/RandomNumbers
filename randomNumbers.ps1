@@ -3,7 +3,7 @@
 #RandomNumbers
 
 #$RandomKeys | Export-Csv -Path "C:\users\USER_NAME\randomkeys.csv";
-$Ks = (1000..9999) | Get-Random -Count 1000 | % {"2017"+"-"+[int]$_};
+$Ks = (1000..9999) | Get-Random -Count 1000 | % {"2018"+"-"+[int]$_};
 
 #Print Variables
 $Ks;
